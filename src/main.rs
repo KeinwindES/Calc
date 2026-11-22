@@ -9,8 +9,8 @@ fn main() {
     io::stdin().read_line(&mut operator).expect("failed to read operator");
     io::stdin().read_line(&mut input2).expect("failed to read number");
 
-    let number1: i32 = input1.trim().parse().expect("input1 was not a number");
-    let number2: i32 = input2.trim().parse().expect("input2 was not a number");
+    let number1: f32 = input1.trim().parse().expect("input1 was not a number");
+    let number2: f32 = input2.trim().parse().expect("input2 was not a number");
     let operator = operator.trim();
 
     if operator == "+" {
